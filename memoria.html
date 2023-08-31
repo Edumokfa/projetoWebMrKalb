@@ -1,76 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memória</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Barriecito"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Memória</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barriecito" />
-  <link rel="stylesheet" href="./estilos.css" />
-</head>
-
-<body>
-  <header>
-    <h1>Como montar um computador</h1>
-  </header>
-  <main>
-    <article>
-      <h2>3º passo: Escolher uma memória compatível</h2>
-      <p>
-        Memórias RAM podem ter versões diferentes, portanto, tome cuidado com
-        sua escolha, pois ela deve ser compatível com a placa mãe. Dentre as
-        versões estão:
-      </p>
-      <br />
-      <table>
-        <tr>
-          <th>Tipo</th>
-          <th>Geração</th>
-          <th>Velocidade</th>
-          <th>Capacidade Máxima</th>
-        </tr>
-        <tr>
-          <td>DDR1</td>
-          <td>Primeira</td>
-          <td>200-400 MHz</td>
-          <td>1 GB</td>
-        </tr>
-        <tr>
-          <td>DDR2</td>
-          <td>Segunda</td>
-          <td>400-800 MHz</td>
-          <td>8 GB</td>
-        </tr>
-        <tr>
-          <td>DDR3</td>
-          <td>Terceira</td>
-          <td>800-1600 MHz</td>
-          <td>32 GB</td>
-        </tr>
-        <tr>
-          <td>DDR4</td>
-          <td>Quarta</td>
-          <td>1600-3200 MHz</td>
-          <td>128 GB</td>
-        </tr>
-        <tr>
-          <td>DDR5</td>
-          <td>Quinta</td>
-          <td>4800-8400 MHz</td>
-          <td>256 GB</td>
-        </tr>
-      </table>
-      <img class="img" src="img/ram.png" alt="RAM" />
-    </article>
-    <div class="proxPassDiv">
-      <a href="./processador.html" class="proxPasso"> Passo anterior </a>
-      <a href="./placaDeVideo.html" class="proxPasso"> Próximo passo </a>
-    </div>
-  </main>
-  <footer>
-    <h3>URI 2021/T2 &copy</h3>
-  </footer>
-</body>
-
+  <body>
+    <header>
+      <section class="grid grid-template-areas-header">
+        <div class="logo">
+          <img class="logo" src="./img/logo.png" />
+        </div>
+        <div class="nav txtHeader">
+          <h1>Como montar um computador</h1>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="proxPassDiv grid grid-template-areas-body">
+        <div class="sidenav">
+          <section>
+            <br />
+            <a href="./index.html" class="itemMenuLateral"> Início </a>
+            <br />
+            Pular passos
+            <br />
+            <a href="./placaMae.html" class="itemMenuLateral"> Passo 1 </a>
+            <br />
+            <a href="./processador.html" class="itemMenuLateral"> Passo 2 </a>
+            <br />
+            <a href="./memoria.html" class="itemMenuLateral"> Passo 3 </a>
+            <br />
+            <a href="./placaDeVideo.html" class="itemMenuLateral"> Passo 4 </a>
+            <br />
+            <a href="./fonte.html" class="itemMenuLateral"> Passo 5 </a>
+            <br />
+            <a href="./armazenamento.html" class="itemMenuLateral"> Passo 6 </a>
+            <br />
+            <a href="./gabinete.html" class="itemMenuLateral"> Passo 7 </a>
+          </section>
+        </div>
+        <div class="content">
+          <article>
+            <h2>3º passo: Escolher uma memória compatível</h2>
+            <p>
+              Memórias RAM podem ter versões diferentes, portanto, tome cuidado
+              com sua escolha, pois ela deve ser compatível com a placa mãe.
+              Dentre as versões estão:
+            </p>
+            <br />
+            <table>
+              <tr>
+                <th>Tipo</th>
+                <th>Geração</th>
+                <th>Velocidade</th>
+                <th>Capacidade Máxima</th>
+              </tr>
+              <tr>
+                <td>DDR1</td>
+                <td>Primeira</td>
+                <td>200-400 MHz</td>
+                <td>1 GB</td>
+              </tr>
+              <tr>
+                <td>DDR2</td>
+                <td>Segunda</td>
+                <td>400-800 MHz</td>
+                <td>8 GB</td>
+              </tr>
+              <tr>
+                <td>DDR3</td>
+                <td>Terceira</td>
+                <td>800-1600 MHz</td>
+                <td>32 GB</td>
+              </tr>
+              <tr>
+                <td>DDR4</td>
+                <td>Quarta</td>
+                <td>1600-3200 MHz</td>
+                <td>128 GB</td>
+              </tr>
+              <tr>
+                <td>DDR5</td>
+                <td>Quinta</td>
+                <td>4800-8400 MHz</td>
+                <td>256 GB</td>
+              </tr>
+            </table>
+            <img class="img" src="img/ram.png" alt="RAM" />
+          </article>
+          <div class="proxPassDiv" style="margin-bottom: 100px">
+            <a href="./processador.html" class="proxPasso"> Passo anterior </a>
+            <a href="./placaDeVideo.html" class="proxPasso"> Próximo passo </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="grid grid-template-areas-footer">
+        <div class="txtFooter">
+          <p>Este site foi desenvolvido com fins estudantis para a matéria de Programação Web</p>
+        </div>
+        <div class="copy">
+          <h3>URI 2021/T2 &copy</h3>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

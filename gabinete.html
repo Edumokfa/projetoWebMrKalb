@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Barriecito"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barriecito" />
-  <link rel="stylesheet" href="./estilos.css" />
-</head>
-
-<body>
-  <header>
-    <h1>Como montar um computador</h1>
-  </header>
-  <main>
-    <article>
-      <h2>7º e último passo: Gabinete</h2>
-      <p>
-        Para garantir o perfeito funcionamento de todos esses componentes, é
-        essencial uni-los em um gabinete cuidadosamente projetado. Esse
-        gabinete não é apenas funcional, mas também representa a essência do
-        seu computador. Por isso, escolha-o com atenção e carinho, pois ele
-        será o verdadeiro cartão de visitas do Computador.
-      </p>
-      <img class="img" src="img/gabinete.png" alt="Gabinete" />
-    </article>
-    <div class="proxPassDiv">
-      <a href="./armazenamento.html" class="proxPasso"> Passo anterior </a>
-    </div>
-  </main>
-  <footer>
-    <h3>URI 2021/T2 &copy</h3>
-  </footer>
-</body>
-
+  <body>
+    <header>
+      <section class="grid grid-template-areas-header">
+        <div class="logo">
+          <img class="logo" src="./img/logo.png" />
+        </div>
+        <div class="nav txtHeader">
+          <h1>Como montar um computador</h1>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="proxPassDiv grid grid-template-areas-body">
+        <div class="sidenav">
+          <section>
+            <br />
+            <a href="./index.html" class="itemMenuLateral"> Início </a>
+            <br />
+            Pular passos
+            <br />
+            <a href="./placaMae.html" class="itemMenuLateral"> Passo 1 </a>
+            <br />
+            <a href="./processador.html" class="itemMenuLateral"> Passo 2 </a>
+            <br />
+            <a href="./memoria.html" class="itemMenuLateral"> Passo 3 </a>
+            <br />
+            <a href="./placaDeVideo.html" class="itemMenuLateral"> Passo 4 </a>
+            <br />
+            <a href="./fonte.html" class="itemMenuLateral"> Passo 5 </a>
+            <br />
+            <a href="./armazenamento.html" class="itemMenuLateral"> Passo 6 </a>
+            <br />
+            <a href="./gabinete.html" class="itemMenuLateral"> Passo 7 </a>
+          </section>
+        </div>
+        <div class="content">
+          <article>
+            <h2>7º e último passo: Gabinete</h2>
+            <p>
+              Para garantir o perfeito funcionamento de todos esses componentes,
+              é essencial uni-los em um gabinete cuidadosamente projetado. Esse
+              gabinete não é apenas funcional, mas também representa a essência
+              do seu computador. Por isso, escolha-o com atenção e carinho, pois
+              ele será o verdadeiro cartão de visitas do Computador.
+            </p>
+            <img class="img" src="img/gabinete.png" alt="Gabinete" />
+          </article>
+          <div class="proxPassDiv">
+            <a href="./armazenamento.html" class="proxPasso">
+              Passo anterior
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="grid grid-template-areas-footer">
+        <div class="txtFooter">
+          <p>Este site foi desenvolvido com fins estudantis para a matéria de Programação Web</p>
+        </div>
+        <div class="copy">
+          <h3>URI 2021/T2 &copy</h3>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
